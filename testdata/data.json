@@ -1,0 +1,13 @@
+[
+    {
+      "validuser":{
+        "username":"john",
+        "password":"demo"
+      },
+      "invaliduser":
+      {
+      "userename":"kavitha",
+      "password":"demo"
+      }
+    }
+]

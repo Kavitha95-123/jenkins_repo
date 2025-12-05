@@ -10,7 +10,7 @@ test('try and catch',async({page})=>{
         //console.log("login button is clicked")
     } catch (error) {
          console.log("❌ Error occurred:" + error);
-         
+         //
     }
 
 });

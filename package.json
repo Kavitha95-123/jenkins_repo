@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "practice",
+=======
+  "name": "qwick",
+>>>>>>> bba6967a119bae5c7b46848f0c27f95a56d5f8d7
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +13,12 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+<<<<<<< HEAD
     "@playwright/test": "^1.56.1",
     "@types/node": "^24.9.1"
+=======
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1"
+>>>>>>> bba6967a119bae5c7b46848f0c27f95a56d5f8d7
   }
 }

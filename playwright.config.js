@@ -14,13 +14,20 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
   testDir: './tests',
+<<<<<<< HEAD
 
+=======
+>>>>>>> bba6967a119bae5c7b46848f0c27f95a56d5f8d7
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
+<<<<<<< HEAD
   retries: process.env.CI ? 2 : 2,
+=======
+  retries: process.env.CI ? 2 : 0,
+>>>>>>> bba6967a119bae5c7b46848f0c27f95a56d5f8d7
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
@@ -32,8 +39,11 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
+<<<<<<< HEAD
     headless:false,
     screenshot:'only-on-failure'
+=======
+>>>>>>> bba6967a119bae5c7b46848f0c27f95a56d5f8d7
   },
 
   /* Configure projects for major browsers */
